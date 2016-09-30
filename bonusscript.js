@@ -10,4 +10,8 @@ function subtract(x) {
 	return x - 4
 }
 
-console.log("The answer to this equation is " + add(multiply(subtract(4))));
+var x = 4
+
+var y = add(multiply(subtract(x)));
+
+console.log("The answer to this equation is " + y);
