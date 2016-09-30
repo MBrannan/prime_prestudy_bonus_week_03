@@ -9,3 +9,5 @@ function multiply(x) {
 function subtract(x) {
 	return x - 4
 }
+
+add(multiply(subtract(4)));
